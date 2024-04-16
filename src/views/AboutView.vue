@@ -1,9 +1,14 @@
-<template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
-</template>
+<script setup>
+import HelloWorld from '../components/HelloWorld.vue'
+</script>
 
+<template>
+   <main>
+
+    <HelloWorld />
+
+  </main>
+</template>
 <style>
 @media (min-width: 1024px) {
   .about {
